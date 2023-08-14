@@ -1,0 +1,30 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "noCache": true,
+    "engineDir":"cocos2d-html5",
+
+    "modules" : ["cocos2d", "spine", "ccui"],
+
+    "jsList" : [
+        "src/utils.js",
+        "src/resources.js",
+        "src/wordsgamescene.js",
+        "src/coinsview.js",
+        "src/wordsgame.js",
+    	"src/wordsmodel.js",
+    	"src/coinsmodel.js",
+    	"src/wordsview.js",
+        "src/shufflemodel.js",
+    	"src/shuffleview.js",
+        "src/letterView.js",
+        "src/boardmodel.js",
+        "src/boardview.js"
+    ]
+}
+
